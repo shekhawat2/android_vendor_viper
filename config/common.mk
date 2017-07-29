@@ -155,8 +155,7 @@ PRODUCT_PACKAGES += \
     ThemeInterfacer \
     WallpaperPicker \
     VPapers \
-    Gallery2 \
-    Jelly
+    Gallery2
 
 # Lawnchair
 PRODUCT_COPY_FILES += \
