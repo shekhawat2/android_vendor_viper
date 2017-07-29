@@ -158,6 +158,10 @@ PRODUCT_PACKAGES += \
     Gallery2 \
     Jelly
 
+# Lawnchair
+PRODUCT_COPY_FILES += \
+   vendor/viper/prebuilt/common/apk/Lawnchair/Lawnchair.apk:system/app/Lawnchair/Lawnchair.apk
+
 # Omni packages
 PRODUCT_PACKAGES += \
     OmniStyle \
