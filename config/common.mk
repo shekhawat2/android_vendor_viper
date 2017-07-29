@@ -161,6 +161,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
    vendor/viper/prebuilt/common/apk/Lawnchair/Lawnchair.apk:system/app/Lawnchair/Lawnchair.apk
 
+# Via Browser
+PRODUCT_COPY_FILES += \
+   vendor/viper/prebuilt/common/apk/via/via.apk:system/app/via/via.apk
+
 # Omni packages
 PRODUCT_PACKAGES += \
     OmniStyle \
