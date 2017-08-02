@@ -157,6 +157,17 @@ PRODUCT_PACKAGES += \
     VPapers \
     Gallery2
 
+# Essential OTA Config
+PRODUCT_PACKAGES += \
+    ViperOTA
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.ota.build.date=$(shell date +%Y%m%d)
+
+# Device specific
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.ota.manifest=https://raw.githubusercontent.com/shekhawat2/OTA/master/tomato.json
+
 # Lawnchair
 PRODUCT_COPY_FILES += \
    vendor/viper/prebuilt/common/apk/Lawnchair/Lawnchair.apk:system/app/Lawnchair/Lawnchair.apk
